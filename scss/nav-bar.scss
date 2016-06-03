@@ -1,0 +1,43 @@
+$font-stack: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial", sans-serif;
+
+
+#nav-bar
+{
+	
+	height:48px;
+	display: block;
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	text-align: center;
+	font-size: 18px;
+	position: relative;
+	
+}
+#main-headings
+{
+	list-style-type: none;
+	height: 44px;
+	width: 100%;
+	position: relative;
+
+}
+ 
+.nav-item
+{
+	display: inline-block;
+	font-family: $font-stack;
+	color: #fff;
+	opacity: 1;
+	vertical-align: middle;
+	font-size: 15px;
+	width: 10%;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 400;
+	line-height: 40px;
+	float: left;
+}
+
+
+
+
+
