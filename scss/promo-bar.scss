@@ -1,0 +1,44 @@
+.promo-bar
+{
+	position:relative;
+	top:210px;
+	width: 100%;
+	//background:orange;
+	height: auto;
+	margin-top: 10px;
+	display:flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	overflow:hidden;
+}
+
+.promo-bar img
+{
+	margin: 0 1px;
+	border-bottom:2px solid #fff;
+	max-height: 210px;
+}
+
+@media (min-width: 42em)
+{
+	.promo-bar img
+	{
+		width: 49.6%;
+		
+	}
+}
+@media (min-width: 65em)
+{
+ .promo-bar img
+ 	{
+     width: 24.8%;
+     
+	}
+}
+@media (max-width: 42em)
+{
+	.promo-bar img
+	{
+		width: 100%;
+	}
+}

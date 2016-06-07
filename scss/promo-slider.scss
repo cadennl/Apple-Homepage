@@ -1,29 +1,39 @@
-
-#promo-slider
+body
 {
-	top: 48px;
-	left: 0px;
-	width: 100%;
-	height: auto;
-	//background: orange;
-	
+	//overflow:hidden;
 }
 
-.slides
+
+.promo-image
+{
+	
+	position: relative;
+	width: 100%;
+	left: 0;
+	//background: orange;
+	//display: flex;
+	height: auto;
+	top:175px;
+	//background: pink;
+
+
+}
+
+.first-slide
 {
 	margin: 0 auto;
 	position: relative;
-
 	width: 100%;
 	height: auto;
 	text-align: center;
 	z-index:1;
-	//background: pink;
+	//background:green;
+	
 
 .iphone-text 
 {
-	//background: green;
-	top: 90px;
+	//background: red;
+	top: -80px;
 	width: 100%;
 	height: 45px;
 	
@@ -39,29 +49,26 @@
 .iphone-description
 {
 	position: relative;
-	top: 10px;
+	top: px;
 	font-family: $font-stack;
 	-webkit-font-smoothing: antialiased;
 	font-size: 28px;
 	font-weight: 200;
 	color: rgba(0,0,0,0.8);
+
 }
 .iphone
 {
-	width: 100%;
-	height: auto;
-	//background: purple;
-	top: 175px;
-	
+
 }
 
 .iphone-image
 {
 	min-height: 200px;
-}
-}
 
 
+}
+}
 
 
 
@@ -69,9 +76,10 @@
 .circle-links
 {
 	position: relative;
-	bottom: -220px;
+	bottom: -10px;
 	text-align: center;
-	z-index: 3;
+	z-index: 5;
+	//background: gold;
 	
 }
 

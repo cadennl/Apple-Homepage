@@ -1,0 +1,119 @@
+
+.redcross-banner-wrapper
+{
+	position:relative;
+	top: 215px;
+	text-align: center;
+	margin-top: 10px;
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	//background:green;
+	//text-align: center;
+}
+
+.redcross-banner
+{
+	position:relative;
+	//background: pink;
+	width:240px;
+	height:25px;
+	left: 25%;
+	//border:1px solid black;
+	//padding-left: 20px;
+	
+	border-right: 1px solid #d6d6d6;
+	
+
+}
+
+.redcross-logo
+{
+	top:-12.5px;
+	position:relative;
+	height:200%;
+	
+}
+
+.redcross-relief
+{
+	position:relative;
+	width:auto;
+	height:25px;
+	//background: purple;
+	padding-left: 10px;
+	top:2px;
+	
+}
+.redcross-donate
+{
+	@extend .redcross-relief;
+	color: #08c;
+
+}
+
+span
+{
+	font-family: $font-stack;
+	//margin-left:200px;
+	//left:15%;
+	-webkit-font-smoothing: antialiased;
+	font-size:18px;
+	letter-spacing: normal;
+	line-height: 1;
+	font-weight: 300;
+	
+}
+
+@media (min-width: 42em)  //42-70
+{
+ .redcross-banner
+ 	{
+     left: 16%;
+	}
+  .redcross-relief
+  {
+  	left:16%;
+  }
+  .redcross-donate
+  {
+  	left: 17%;
+  }
+}
+@media (min-width: 65em) //70-beyond
+{
+  .redcross-banner
+ 	{
+   left: 25%;
+	}
+  .redcross-relief
+  {
+  	left: 25%;
+  }
+  .redcross-donate
+  {
+  	left:26%;
+  }
+}
+@media (max-width:42em) //0-42em
+{
+	.redcross-banner-wrapper
+	{
+		height:100px;
+		flex-direction:column;
+		width:auto;
+		//background: blue;
+	}
+	.redcross-banner
+	{
+		border:none;
+		margin: 0 auto;
+		text-align: center;
+		left:0;
+	}
+	.redcross-relief
+	{
+		top:20px;
+	}
+}
+

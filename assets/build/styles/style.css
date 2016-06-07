@@ -26,47 +26,44 @@
   line-height: 40px;
   float: left; }
 
-#promo-slider {
-  top: 48px;
-  left: 0px;
+.promo-image {
+  position: relative;
   width: 100%;
-  height: auto; }
+  left: 0;
+  height: auto;
+  top: 175px; }
 
-.slides {
+.first-slide {
   margin: 0 auto;
   position: relative;
   width: 100%;
   height: auto;
   text-align: center;
   z-index: 1; }
-  .slides .iphone-text {
-    top: 90px;
+  .first-slide .iphone-text {
+    top: -80px;
     width: 100%;
     height: 45px; }
-  .slides .iphone-textimage {
+  .first-slide .iphone-textimage {
     width: 210px;
     min-height: 10px;
     max-height: 44px; }
-  .slides .iphone-description {
+  .first-slide .iphone-description {
     position: relative;
-    top: 10px;
+    top: px;
     font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: 28px;
     font-weight: 200;
     color: rgba(0, 0, 0, 0.8); }
-  .slides .iphone {
-    width: 100%;
-    height: auto;
-    top: 175px; }
-  .slides .iphone-image {
+  .first-slide .iphone-image {
     min-height: 200px; }
 
 .circle-links {
   position: relative;
-  bottom: -220px;
+  bottom: -10px;
   text-align: center;
-  z-index: 3; }
+  z-index: 5; }
 
 .circle-link {
   width: 8px;
@@ -84,5 +81,207 @@
 .circle-click {
   background: none;
   border: 1.8px solid #66CCFF; }
+
+.promo-bar {
+  position: relative;
+  top: 210px;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.promo-bar img {
+  margin: 0 1px;
+  border-bottom: 2px solid #fff;
+  max-height: 210px; }
+
+@media (min-width: 42em) {
+  .promo-bar img {
+    width: 49.6%; } }
+
+@media (min-width: 65em) {
+  .promo-bar img {
+    width: 24.8%; } }
+
+@media (max-width: 42em) {
+  .promo-bar img {
+    width: 100%; } }
+
+.redcross-banner-wrapper {
+  position: relative;
+  top: 215px;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+
+.redcross-banner {
+  position: relative;
+  width: 240px;
+  height: 25px;
+  left: 25%;
+  border-right: 1px solid #d6d6d6; }
+
+.redcross-logo {
+  top: -12.5px;
+  position: relative;
+  height: 200%; }
+
+.redcross-relief, .redcross-donate {
+  position: relative;
+  width: auto;
+  height: 25px;
+  padding-left: 10px;
+  top: 2px; }
+
+.redcross-donate {
+  color: #08c; }
+
+span {
+  font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  letter-spacing: normal;
+  line-height: 1;
+  font-weight: 300; }
+
+@media (min-width: 42em) {
+  .redcross-banner {
+    left: 16%; }
+  .redcross-relief, .redcross-donate {
+    left: 16%; }
+  .redcross-donate {
+    left: 17%; } }
+
+@media (min-width: 65em) {
+  .redcross-banner {
+    left: 25%; }
+  .redcross-relief, .redcross-donate {
+    left: 25%; }
+  .redcross-donate {
+    left: 26%; } }
+
+@media (max-width: 42em) {
+  .redcross-banner-wrapper {
+    height: 100px;
+    flex-direction: column;
+    width: auto; }
+  .redcross-banner {
+    border: none;
+    margin: 0 auto;
+    text-align: center;
+    left: 0; }
+  .redcross-relief, .redcross-donate {
+    top: 20px; } }
+
+#footer-main {
+  position: relative;
+  top: 250px;
+  height: auto;
+  background-color: #f2f2f2;
+  padding-bottom: 40px; }
+
+.nav-container {
+  height: 400px;
+  max-width: 980px;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 22px; }
+
+.nav-menu-5 {
+  display: flex;
+  max-width: 980px;
+  height: 400px;
+  padding: 0 22px; }
+
+.nav-menu-5 div {
+  width: 25%;
+  margin: 0 5px; }
+
+.nav-menu-5 ul {
+  margin-top: 50px; }
+
+.nav-menu-item {
+  margin-top: 10px;
+  font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
+  color: #666;
+  -webkit-font-smoothing: antialiased; }
+
+.col-head {
+  font-weight: 600;
+  color: #333; }
+
+.header {
+  margin-top: 40px; }
+
+#bottom-footer-container {
+  max-width: 980px;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 22px; }
+  #bottom-footer-container div {
+    font-size: .75em;
+    font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    letter-spacing: normal;
+    font-weight: 200;
+    color: #666;
+    -webkit-font-smoothing: antialiased; }
+
+.bottom-footer-top {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e3e3e3;
+  margin: 0 22px; }
+  .bottom-footer-top span {
+    font-size: 1em; }
+  .bottom-footer-top a {
+    text-decoration: none;
+    color: #08c; }
+
+.bottom-footer-bottom {
+  padding-top: 10px;
+  display: flex;
+  margin: 0 22px;
+  position: relative; }
+  .bottom-footer-bottom .bottom-footer-legal {
+    padding-left: 20px; }
+  .bottom-footer-bottom span {
+    font-size: 1em; }
+  .bottom-footer-bottom a {
+    text-decoration: none;
+    color: #666;
+    font-size: 1.3em;
+    margin: 10px; }
+  .bottom-footer-bottom .flag-us {
+    position: absolute;
+    right: 0px;
+    font-size: 1.3em; }
+    .bottom-footer-bottom .flag-us span {
+      background-size: 16px 16px;
+      background-image: url("http://images.apple.com/ac/flags/1/images/us/32.png");
+      width: 16px;
+      height: 16px;
+      float: left;
+      border-radius: 2px;
+      box-sizing: content-box;
+      background-position: left center;
+      background-repeat: no-repeat; }
+
+@media (max-width: 55em) {
+  .bottom-footer-bottom {
+    flex-direction: column; }
+    .bottom-footer-bottom div {
+      padding-top: 10px; }
+    .bottom-footer-bottom #PP {
+      margin-left: 0px; }
+    .bottom-footer-bottom .bottom-footer-legal {
+      padding-left: 0px; }
+    .bottom-footer-bottom .flag-us {
+      margin-top: 5px;
+      left: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
