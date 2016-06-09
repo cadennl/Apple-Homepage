@@ -20,6 +20,7 @@ div
 }
 
 
+
 .bottom-footer-top
 {
 	padding-bottom:10px;
@@ -48,6 +49,16 @@ a
 	.bottom-footer-legal
 	{
 		padding-left: 20px;
+
+		a
+		{
+			padding: 0 10px;
+			border-right: 1px solid #e3e3e3;
+		}
+		#SM
+		{
+			border-right: none;
+		}
 	}
 	span
 	{
@@ -59,8 +70,9 @@ a
 		text-decoration: none;
 		color: #666;
 		font-size: 1.3em;
-		margin: 10px;
+		
 	}
+	
 
 	.flag-us
 	{
@@ -75,6 +87,7 @@ a
 			background-image: url("http://images.apple.com/ac/flags/1/images/us/32.png");
 			width: 16px;
 			height: 16px;
+			padding-right: 5px;
 			float: left;
 			border-radius: 2px;
 			box-sizing: content-box;
@@ -105,7 +118,11 @@ a
 		}
 		.bottom-footer-legal
 		{
-		padding-left: 0px;
+		padding-left:0px;
+		a
+		{
+			padding:0px;
+		}
 		
 		}
 		.flag-us

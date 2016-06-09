@@ -1,7 +1,7 @@
 .promo-bar
 {
 	position:relative;
-	top:210px;
+	top:160px;
 	width: 100%;
 	//background:orange;
 	height: auto;
@@ -9,36 +9,155 @@
 	display:flex;
 	flex-wrap: wrap;
 	margin: 0 auto;
-	overflow:hidden;
+	
+	max-width: 2560px;
 }
 
-.promo-bar img
+.promo-bar div
 {
-	margin: 0 1px;
+	
+	height: 200px;
+	width: auto;
 	border-bottom:2px solid #fff;
 	max-height: 210px;
 }
 
+
 @media (min-width: 42em)
 {
-	.promo-bar img
+	.promo-bar div
 	{
-		width: 49.6%;
+		width: 50%;
 		
 	}
-}
-@media (min-width: 65em)
-{
- .promo-bar img
- 	{
-     width: 24.8%;
-     
+	.promo-item-1
+	{
+		background-size: 640px 200px;
+		background-image:  url("http://images.apple.com/v/home/cn/images/promos/back_to_school_medium_2x.jpg");
+		background-position: center center;
+	}
+	.promo-item-2
+	{
+		background-size: 640px 200px;
+		background-image:  url("http://images.apple.com/v/home/cn/images/promos/apple_tv_medium_2x.jpg");
+		background-position: center center;
+	}
+	.promo-item-3
+	{
+		background-size: 640px 200px;
+		background-image:  url("http://images.apple.com/v/home/cn/images/promos/accessories_medium_2x.jpg");
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+	.promo-item-4
+	{
+		background-size: 640px 200px;
+		background-image:  url("http://images.apple.com/v/home/cn/images/promos/teaser_wwdc_2016_medium_2x.jpg");
+		background-position: center center;
 	}
 }
-@media (max-width: 42em)
+@media (min-width: 65em) and (max-width: 1428px)
 {
-	.promo-bar img
+ .promo-bar div
+ 	{
+     width: 25%;
+	}
+	.promo-item-1
+	{
+		background-size: 360px 200px;
+		background-image:  url("http://images.apple.com/v/home/cn/images/promos/back_to_school_large_2x.jpg");
+		background-position: center center;
+	}
+	.promo-item-2
+	{
+		background-size: 360px 200px;
+		background-image:  url("http://images.apple.com/v/home/cn/images/promos/apple_tv_large_2x.jpg");
+		background-position: center center;
+	}
+	.promo-item-3
+	{
+		background-size: 360px 200px;
+		white-space: nowrap;
+		background-image:  url("http://images.apple.com/v/home/cn/images/promos/accessories_large_2x.jpg");
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+	.promo-item-4
+	{
+		background-size: 360px 200px;
+		background-image:  url("http://images.apple.com/v/home/cn/images/promos/teaser_wwdc_2016_large_2x.jpg");
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+	
+}
+@media (min-width: 0em) and (max-width: 736px)
+{
+	.promo-bar div
 	{
 		width: 100%;
 	}
+	.promo-item-1
+	{
+		background-size: 640px 200px;
+		background-image:  url("http://images.apple.com/v/home/cn/images/promos/back_to_school_small_2x.jpg");
+		background-position: center center;
+	}
+	.promo-item-2
+	{
+		background-size: 640px 200px;
+		background-image:  url("http://images.apple.com/v/home/cn/images/promos/apple_tv_small_2x.jpg");
+		background-position: center center;
+	}
+	.promo-item-3
+	{
+		background-size: 640px 200px;
+		background-image:  url("http://images.apple.com/v/home/cn/images/promos/accessories_small_2x.jpg");
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+	.promo-item-4
+	{
+		background-size: 640px 200px;
+		background-image:  url("http://images.apple.com/v/home/cn/images/promos/teaser_wwdc_2016_small_2x.jpg");
+		background-position: center center;
+	}
 }
+
+
+@media( min-width: 1428px)
+{
+	 .promo-bar div
+ 	{
+     width: 25%;
+	}
+	.promo-item-1
+	{
+		background-size: 640px 200px;
+		background-image:  url("http://images.apple.com/v/home/cn/images/promos/back_to_school_medium_2x.jpg");
+		background-position: center center;
+	}
+	.promo-item-2
+	{
+		background-size: 640px 200px;
+		background-image:  url("http://images.apple.com/v/home/cn/images/promos/apple_tv_medium_2x.jpg");
+		background-position: center center;
+	}
+	.promo-item-3
+	{
+		background-size: 640px 200px;
+		white-space: nowrap;
+		background-image:  url("http://images.apple.com/v/home/cn/images/promos/accessories_medium_2x.jpg");
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+	.promo-item-4
+	{
+		background-size: 640px 200px;
+		background-image:  url("http://images.apple.com/v/home/cn/images/promos/teaser_wwdc_2016_medium_2x.jpg");
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+
+}
+

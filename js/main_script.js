@@ -2,7 +2,11 @@
 $(document).ready(function()
 {
 
+loadSliderButton();
 
+
+function loadSliderButton()
+{
 var currentButton = $('.one');
 $('.one').addClass('circle-click');
 
@@ -17,11 +21,8 @@ $('.circle-link').click(function()
 	currentButton = $(this);
 	
 });
+}
 
-setInterval(function()
-{
-	$()
-})
 
 
 });

@@ -2,23 +2,40 @@ body
 {
 	//overflow:hidden;
 }
+.promo-content
+{
+	width:100%;  
+	//background:red;
+	padding-top:40px;
+	//overflow:hidden;
+	position:relative;
+	top:150px;
+	text-align:center;
 
-
+}
 .promo-image
 {
 	
 	position: relative;
-	width: 100%;
-	left: 0;
+	width: 100%;   //change to 200 when implementing slider
+	//left: 0;
 	//background: orange;
-	//display: flex;
+	display: flex;
 	height: auto;
-	top:175px;
+	max-height: 600px;
+	text-align:center;
+	
+	//display: inline-block;
 	//background: pink;
 
 
 }
 
+.display-1
+{
+	max-height: 600px;
+
+}
 .first-slide
 {
 	margin: 0 auto;
@@ -26,21 +43,16 @@ body
 	width: 100%;
 	height: auto;
 	text-align: center;
-	z-index:1;
+	z-index:0;
+
+	//display: inline-block;
+
 	//background:green;
 	
 
-.iphone-text 
-{
-	//background: red;
-	top: -80px;
-	width: 100%;
-	height: 45px;
-	
-}
-
 .iphone-textimage
 {
+	top: -40px;
 	width: 210px;
 	min-height: 10px;
 	max-height: 44px;
@@ -49,7 +61,7 @@ body
 .iphone-description
 {
 	position: relative;
-	top: px;
+	top:-30px;
 	font-family: $font-stack;
 	-webkit-font-smoothing: antialiased;
 	font-size: 28px;
@@ -59,6 +71,17 @@ body
 }
 .iphone
 {
+	overflow:visible;
+	background-image: url("http://images.apple.com/v/home/cn/images/heros/iphone_6s_medium_2x.jpg");
+	background-size: 1400px 389px;
+	background-position: 0 0;
+	border: 1px  solid red;
+	width: 1400px;
+    height: 389px;
+    margin: 0 auto;
+    left:auto;
+    
+
 
 }
 
@@ -69,14 +92,63 @@ body
 
 }
 }
+ .display-2
+{
+	position: relative;
+	top: -30px;
+	display: none;    //comment out when working with slider
+	//display: inline-block;
+
+}
+.second-slide
+{
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	z-index:1;
 
 
+	//background:green;
+	
 
+.ipad-textimage
+{
+	top: -40px;
+	width: 210px;
+	min-height: 10px;
+	max-height: 42px;
+	
+}
+.ipad-description
+{
+	position: relative;
+	top:-30px;
+	font-family: $font-stack;
+	-webkit-font-smoothing: antialiased;
+	font-size: 28px;
+	font-weight: 200;
+	color: rgba(0,0,0,0.8);
+
+}
+.ipad
+{
+
+}
+
+.ipad-image
+{
+	min-height: 200px;
+
+
+}
+}
 
 .circle-links
 {
 	position: relative;
-	bottom: -10px;
+	
 	text-align: center;
 	z-index: 5;
 	//background: gold;
@@ -85,6 +157,7 @@ body
 
 .circle-link
 {
+
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;

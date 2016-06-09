@@ -1,17 +1,20 @@
 $font-stack: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial", sans-serif;
 
-
+a
+{
+	text-decoration: none;
+	color: #FFF;
+}
 #nav-bar
 {
 	
 	height:48px;
 	display: block;
-	width: 100%;
 	background: rgba(0,0,0,0.8);
 	text-align: center;
 	font-size: 18px;
-	position: relative;
 	
+
 	
 }
 #main-headings
@@ -20,8 +23,18 @@ $font-stack: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial", sans-serif;
 	height: 44px;
 	width: 100%;
 	position: relative;
+	text-align: center;
 
+	a:hover
+	{
+		opacity: .6;
+	}
+	span:hover
+	{
+		opacity: .6;
+	}
 }
+
  
 .nav-item
 {
@@ -36,7 +49,67 @@ $font-stack: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial", sans-serif;
 	font-weight: 400;
 	line-height: 40px;
 	float: left;
+
+
+	
 }
+
+	
+@media (max-width: 767px)
+{
+
+	.nav-item
+	{
+		display:none;
+	}
+	.menu 
+	{
+		width: 17px;
+		height: 48px;
+		left: 22px;
+		position: relative;
+		display: inline-block;
+		//float: left;
+	}
+	.menuicon
+	{
+		position: relative;
+		top: 20px;
+		height: 8px;
+		width: 17px;
+
+	}
+	.menuicon-top
+	{
+		height: 1px;
+		width: 17px;
+		
+		position: relative;
+		background-color: #fff;
+		display: inline-block;
+	}
+	.menuicon-bottom
+	{
+		@extend .menuicon-top;
+		display: inline-block;
+		top: 6px;
+	}
+	
+	.apple
+	{
+		display: inline-block;	
+		float: none;
+}
+	.bag
+	{
+		display: inline-block;
+		position:absolute;
+		right:0px;
+	
+	}
+}
+
+
 
 
 
