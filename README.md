@@ -1,7 +1,12 @@
-# Apple-Homepage
+## The Apple Homepage
 My attempt to recreate the Apple Homepage
  
 An experiment with css flexbox layout design
 
 
-TODO: write scripts, tweak responsive behavior for mobile platforms, 
+## TODO:
+
+*Implement toggleable search menu
+*Change media queries 
+*Modify responsive behavior for mobile
+
