@@ -6,7 +6,7 @@ An experiment with css flexbox layout design
 
 ## TODO:
 
-*Implement toggleable search menu
-*Change media queries 
+*Implement toggleable search menu  
+*Change media queries   
 *Modify responsive behavior for mobile
 
