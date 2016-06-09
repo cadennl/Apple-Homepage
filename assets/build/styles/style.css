@@ -66,21 +66,22 @@ a {
 
 .promo-content {
   width: 100%;
-  padding-top: 40px;
+  padding-top: 100px;
+  overflow: hidden;
   position: relative;
-  top: 150px;
+  top: 80px;
   text-align: center; }
 
 .promo-image {
   position: relative;
-  width: 100%;
+  width: 300%;
+  left: 0;
   display: flex;
   height: auto;
-  max-height: 600px;
-  text-align: center; }
+  max-height: 650px; }
 
 .display-1 {
-  max-height: 600px; }
+  max-height: 650px; }
 
 .first-slide {
   margin: 0 auto;
@@ -102,23 +103,12 @@ a {
     font-size: 28px;
     font-weight: 200;
     color: rgba(0, 0, 0, 0.8); }
-  .first-slide .iphone {
-    overflow: visible;
-    background-image: url("http://images.apple.com/v/home/cn/images/heros/iphone_6s_medium_2x.jpg");
-    background-size: 1400px 389px;
-    background-position: 0 0;
-    border: 1px  solid red;
-    width: 1400px;
-    height: 389px;
-    margin: 0 auto;
-    left: auto; }
   .first-slide .iphone-image {
-    min-height: 200px; }
+    min-height: 300px; }
 
 .display-2 {
   position: relative;
-  top: -30px;
-  display: none; }
+  top: -30px; }
 
 .second-slide {
   margin: 0 auto;
@@ -129,9 +119,9 @@ a {
   z-index: 1; }
   .second-slide .ipad-textimage {
     top: -40px;
-    width: 210px;
+    width: 150px;
     min-height: 10px;
-    max-height: 42px; }
+    max-height: 39px; }
   .second-slide .ipad-description {
     position: relative;
     top: -30px;
@@ -143,8 +133,38 @@ a {
   .second-slide .ipad-image {
     min-height: 200px; }
 
+.display-3 {
+  position: relative;
+  top: -75px; }
+
+.third-slide {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  z-index: 1; }
+  .third-slide .watch-textimage {
+    top: -20px;
+    width: 210px;
+    min-height: 10px;
+    max-height: 42px; }
+  .third-slide .watch-description {
+    position: relative;
+    top: -10px;
+    font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 28px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.8); }
+  .third-slide .watch-image {
+    min-height: 200px;
+    max-height: 650px;
+    max-width: 700px; }
+
 .circle-links {
   position: relative;
+  bottom: 40px;
   text-align: center;
   z-index: 5; }
 
@@ -165,9 +185,24 @@ a {
   background: none;
   border: 1.8px solid #66CCFF; }
 
+.first-slide-trans {
+  left: 0;
+  transition: left .6s;
+  transition-timing-function: ease-in; }
+
+.second-slide-trans {
+  left: -100%;
+  transition: left .6s;
+  transition-timing-function: ease-in; }
+
+.third-slide-trans {
+  left: -200%;
+  transition: left .6s;
+  transition-timing-function: ease-in; }
+
 .promo-bar {
   position: relative;
-  top: 160px;
+  top: 125px;
   width: 100%;
   height: auto;
   margin-top: 10px;
@@ -272,7 +307,7 @@ a {
 
 .redcross-banner-wrapper {
   position: relative;
-  top: 160px;
+  top: 175px;
   text-align: center;
   margin-top: 10px;
   width: 100%;
