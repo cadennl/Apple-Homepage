@@ -10,3 +10,6 @@ An experiment with css flexbox layout design
 *Change media queries   
 *Modify responsive behavior for mobile
 
+
+
+View it [here](https://htmlpreview.github.io/?https://github.com/cadennl/Apple-Homepage/blob/master/index.html#)
