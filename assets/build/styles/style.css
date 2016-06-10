@@ -307,7 +307,7 @@ a {
 
 .redcross-banner-wrapper {
   position: relative;
-  top: 175px;
+  top: 130px;
   text-align: center;
   margin-top: 10px;
   width: 100%;
@@ -378,7 +378,7 @@ span {
 
 #footer-main {
   position: relative;
-  top: 200px;
+  top: 175px;
   height: auto;
   background-color: #f2f2f2;
   padding-bottom: 40px; }

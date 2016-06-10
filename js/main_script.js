@@ -1,7 +1,10 @@
 
+
+
+
+
 $(document).ready(function()
 {
-
 loadSliderButton();
 
 
@@ -42,7 +45,6 @@ function slideImages(slideNumber)
 	{
 		$('.promo-image').removeClass('first-slide-trans second-slide-trans');
 		$('.promo-image').addClass('third-slide-trans');
-		
 	}
 
 }
